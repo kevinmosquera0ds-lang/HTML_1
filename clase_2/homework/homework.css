@@ -7,6 +7,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+    display: block;
+    text-align: center;
 
 }
 
@@ -14,27 +16,53 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
+#ejercicioDos {
+    position: none;
+}
 
 
 
 
 /* Ejercicio 3: Posicionar la imagen */
+#containerImage {
+    position: relative;
 
+}
 
-
+#ejercicioTres {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
 
 
 /* Ejercicio 4: Fijar el header */
-
-
-
+#ejercicioCuatro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
 /* Ejercicio 5: Organizar los elementos del header */
-
-
-
-
+#ejercicioCinco {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 /* Ejercicio 6: Cambiar la dirección de los elementos */
-
-
+#ejercicioSeis {
+    flex-direction: column;
+}
+/* Ejercicio 7: playground de flexbox */
+#ejercicioSiete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#elementoDos {
+    align-self: flex-end;
+}
+#elementoTres {
+    align-self: flex-start;
+}
